@@ -331,18 +331,18 @@ export const treeCompensationLayer = new FeatureLayer({
 
 /* Tree Conservation layer */
 export const colorsConservation = [
-  "#9e0142",
-  "#d53e4f",
-  "#f46d43",
-  "#fdae61",
-  "#fee08b",
-  "#e6f598",
-  "#abdda4",
-  "#66c2a5",
-  "#3288bd",
-  "#5e4fa2",
-  "#ffffff",
-  "#44555a",
+  "#9e0142", //ex
+  "#d53e4f", // Ew
+  "#f46d43", // CR
+  "#fdae61", // E
+  "#fee08b", // VU
+  "#e6f598", // NT
+  "#abdda4", // LC
+  "#66c2a5", // DD
+  "#3288bd", // NE
+  "#5e4fa2", // OTS
+  "#ffffff", // NL
+  "#44555a", // EN
 ];
 
 const treeConservationUniqueValuesInfos = colorsConservation.map(
