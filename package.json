@@ -1,5 +1,5 @@
 {
-  "homepage": "https://eijigorilla.github.io/n2-trees",
+  "homepage": "https://railway-sector.github.io/n2-trees",
   "name": "n2-trees",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,6 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
-    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
@@ -48,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

@@ -1,7 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
 import OAuthInfo from "@arcgis/core/identity/OAuthInfo";
 import IdentityManager from "@arcgis/core/identity/IdentityManager";
-import PortalQueryParams from "@arcgis/core/portal/PortalQueryParams";
 import Portal from "@arcgis/core/portal/Portal";
 import "./App.css";
 import "./index.css";
@@ -16,7 +15,6 @@ import MapDisplay from "./components/MapDisplay";
 import ActionPanel from "./components/ActionPanel";
 import Header from "./components/Header";
 import MainChart from "./components/MainChart";
-import TreeCompensationChart from "./components/TreeCompensationChart";
 import { contractPackage } from "./Query";
 
 type MyDropdownContextType = {
