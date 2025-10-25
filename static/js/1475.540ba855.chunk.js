@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkn2_trees=self.webpackChunkn2_trees||[]).push([[1475],{45364:(e,t,r)=>{r.d(t,{O:()=>s});var n=r(56175);class s extends n.I{getOperatorType(){return 7}execute(e,t,r,s){return(0,n.J)(e,t,r,2,s)}}},51475:(e,t,r)=>{r.r(t),r.d(t,{execute:()=>c});var n=r(45364),s=r(48045);const u=new n.O;function c(e,t){const r=(0,s.fromGeometry)(e);return u.execute(r.getGeometry(),(0,s.fromGeometryToGXGeometry)(t),r.getSpatialReference(),null)}}}]);
+//# sourceMappingURL=1475.540ba855.chunk.js.map

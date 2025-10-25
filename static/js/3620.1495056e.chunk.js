@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkn2_trees=self.webpackChunkn2_trees||[]).push([[3620],{73620:(s,r,e)=>{e.d(r,{default:()=>n});var t=e(97002);class n extends t.p{constructor(){super(...arguments),this.errors=null}syntaxError(s,r,e,t,n,u){this.errors||(this.errors=[]),this.errors.push({line:e,column:t,msg:n,e:u})}}}}]);
+//# sourceMappingURL=3620.1495056e.chunk.js.map
