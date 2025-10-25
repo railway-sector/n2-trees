@@ -31,7 +31,7 @@ function MapDisplay() {
         setMapView(event.target);
       }}
     >
-      {/* <arcgis-zoom position="top-right"></arcgis-zoom> */}
+      <arcgis-zoom slot="top-right"></arcgis-zoom>
     </arcgis-map>
   );
 }

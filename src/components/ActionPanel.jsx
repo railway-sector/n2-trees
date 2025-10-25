@@ -13,12 +13,13 @@ import { useEffect, useState } from "react";
 import "@arcgis/map-components/components/arcgis-basemap-gallery";
 import "@arcgis/map-components/components/arcgis-layer-list";
 import "@arcgis/map-components/components/arcgis-legend";
-import { defineActions } from "../uniqueValues";
+import { treeCuttingLayer } from "../layers";
 
 function ActionPanel() {
   const [activeWidget, setActiveWidget] = useState(null);
   const [nextWidget, setNextWidget] = useState(null);
   const arcgisMap = document.querySelector("arcgis-map");
+  const legend = document.querySelector("arcgis-legend");
 
   useEffect(() => {
     if (activeWidget) {
@@ -105,7 +106,22 @@ function ActionPanel() {
             // show-collapse-button
             show-filter
             filter-placeholder="Filter layers"
-            listItemCreatedFunction={defineActions}
+            listItemCreatedFunction={(event) => {
+              const { item } = event;
+              if (item.layer.type !== "group") {
+                item.panel = {
+                  content: "legend",
+                  open: true,
+                  visible: true,
+                };
+              }
+
+              item.title === "Chainage" ||
+              item.title === "Tree Compensation" ||
+              item.title === "Tree Conservation"
+                ? (item.visible = false)
+                : (item.visible = true);
+            }}
           ></arcgis-layer-list>
         </CalcitePanel>
 

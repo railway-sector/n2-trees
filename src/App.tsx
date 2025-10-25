@@ -7,7 +7,7 @@ import "./index.css";
 import "@arcgis/map-components/dist/components/arcgis-map";
 import "@arcgis/map-components/components/arcgis-map";
 import "@arcgis/map-components/components/arcgis-zoom";
-import "@arcgis/map-components/components/arcgis-legend";
+// import "@arcgis/map-components/components/arcgis-legend";
 import "@esri/calcite-components/dist/components/calcite-shell";
 import "@esri/calcite-components/dist/calcite/calcite.css";
 import { CalciteShell } from "@esri/calcite-components-react";
